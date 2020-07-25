@@ -20,9 +20,9 @@ namespace CarModelBinding.Models
         [Required]
         public string Model { get; set; }
         /// <summary>
-        /// Production year of the vehicle
+        /// When production starts
         /// </summary>
-        [DataType(DataType.Date]
+        [DataType(DataType.Date)]
         [Required]
         public DateTime Year { get; set; }
         /// <summary>
